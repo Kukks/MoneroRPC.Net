@@ -1,11 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp2.2</TargetFramework>
         <Authors>Kukks</Authors>
         <PackageProjectUrl>https://github.com/Kukks/MoneroRPC.Net</PackageProjectUrl>
         <RepositoryUrl>https://github.com/Kukks/MoneroRPC.Net</RepositoryUrl>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFrameworks>netstandard2.0;netcoreapp2.1;netcoreapp2.2</TargetFrameworks>
+        <Copyright>https://opensource.org/licenses/MIT</Copyright>
+        <PackageVersion>1.0.1</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
